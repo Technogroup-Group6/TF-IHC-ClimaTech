@@ -1,0 +1,519 @@
+.landing-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .landing-page .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1360px;
+    height: 3004px;
+    position: relative;
+  }
+  
+  .landing-page .div-2 {
+    position: absolute;
+    width: 1369px;
+    height: 714px;
+    top: 0;
+    left: 0;
+  }
+  
+  .landing-page .overlap-group {
+    position: relative;
+    height: 714px;
+  }
+  
+  .landing-page .image {
+    width: 1360px;
+    height: 714px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .landing-page .rectangle {
+    position: absolute;
+    width: 1369px;
+    height: 646px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(23.65, 23.65, 23.65, 0.77) 0%, rgba(23.65, 23.65, 23.65, 0) 100%);
+  }
+  
+  .landing-page .nav-bar {
+    position: absolute;
+    width: 1368px;
+    height: 101px;
+    top: 0;
+    left: 0;
+  }
+  
+  .landing-page .overlap {
+    position: relative;
+    width: 1360px;
+    height: 101px;
+    background-color: #497ff3;
+  }
+  
+  .landing-page .logo {
+    position: absolute;
+    width: 340px;
+    height: 67px;
+    top: 19px;
+    left: 50px;
+  }
+  
+  .landing-page .overlap-group-2 {
+    position: relative;
+    width: 338px;
+    height: 67px;
+  }
+  
+  .landing-page .climatech-logo-text {
+    position: absolute;
+    width: 256px;
+    top: 9px;
+    left: 82px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .landing-page .logo-climatech {
+    position: absolute;
+    width: 94px;
+    height: 67px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .landing-page .text-wrapper {
+    cursor: pointer;
+    background-color: #497ff3;
+    position: absolute;
+    width: 166px;
+    top: 36px;
+    left: 492px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-2 {
+    cursor: pointer;
+    background-color: #497ff3;
+    position: absolute;
+    width: 146px;
+    top: 36px;
+    left: 704px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-3 {
+    cursor: pointer;
+    background-color: #497ff3;
+    position: absolute;
+    width: 109px;
+    top: 36px;
+    left: 896px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .iniciar-seccion {
+    cursor: pointer;
+    background-color: #497ff3;
+    position: absolute;
+    width: 163px;
+    top: 36px;
+    left: 1051px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .landing-page .text-wrapper:hover,
+  .landing-page .text-wrapper-2:hover,
+  .landing-page .text-wrapper-3:hover,
+  .landing-page .iniciar-seccion:hover {
+  background-color: #355fad;
+}
+  
+  .landing-page .front-main-page {
+    position: absolute;
+    width: 1310px;
+    height: 522px;
+    top: 133px;
+    left: 27px;
+  }
+  
+  .landing-page .vectores {
+    position: absolute;
+    width: 570px;
+    height: 408px;
+    top: 204px;
+    left: 163px;
+  }
+  
+  .landing-page .overlap-2 {
+    position: absolute;
+    width: 1381px;
+    height: 1738px;
+    top: 1266px;
+    left: -3px;
+  }
+  
+  .landing-page .footer {
+    position: absolute;
+    width: 1374px;
+    height: 180px;
+    top: 1558px;
+    left: 3px;
+    background-color: transparent;
+  }
+  
+  .landing-page .overlap-3 {
+    position: relative;
+    width: 1366px;
+    height: 180px;
+    background-color: #2759c6;
+  }
+  
+  .landing-page .nosotros {
+    width: 363px;
+    top: 18px;
+    left: 877px;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .CLIMATECH {
+    position: absolute;
+    width: 323px;
+    height: 37px;
+    top: 79px;
+    left: 43px;
+  }
+  
+  .landing-page .nosotros-2 {
+    width: 125px;
+    top: 35px;
+    left: 528px;
+    font-size: 24px;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .nosotros-3 {
+    width: 162px;
+    top: 90px;
+    left: 510px;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .facebook-logo {
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    top: 86px;
+    left: 814px;
+  }
+  
+  .landing-page .section {
+    position: absolute;
+    width: 1367px;
+    height: 433px;
+    top: 1125px;
+    left: 1px;
+  }
+  
+  .landing-page .overlap-4 {
+    position: relative;
+    width: 1365px;
+    height: 433px;
+    background-color: #1f3667;
+  }
+  
+  .landing-page .text-wrapper-4 {
+    position: absolute;
+    top: 44px;
+    left: 509px;
+    font-family: "Anton", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .img {
+    width: 572px;
+    height: 178px;
+    top: 180px;
+    left: 83px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .landing-page .app-store {
+    position: absolute;
+    width: 572px;
+    height: 178px;
+    top: 180px;
+    left: 708px;
+    object-fit: cover;
+  }
+  
+  .landing-page .overlap-wrapper {
+    position: absolute;
+    width: 1381px;
+    height: 588px;
+    top: 548px;
+    left: 0;
+  }
+  
+  .landing-page .overlap-5 {
+    position: relative;
+    width: 1360px;
+    height: 588px;
+    left: 3px;
+    background-image: url(./img/rectangle-11.svg);
+    background-size: 100% 100%;
+  }
+  
+  .label {
+    width: 288px;
+    height: 90px;
+  }
+  
+  .label .text-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-5 {
+    position: absolute;
+    top: 19px;
+    left: 516px;
+    font-family: "Anton", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .div-wrapper {
+    position: absolute;
+    width: 569px;
+    height: 165px;
+    top: 142px;
+    left: 51px;
+    background-color: #2a57b8;
+    border-radius: 30px;
+  }
+  
+  .landing-page .p {
+    position: absolute;
+    width: 518px;
+    top: 25px;
+    left: 29px;
+    font-family: "Antonio", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .overlap-6 {
+    position: absolute;
+    width: 569px;
+    height: 165px;
+    top: 359px;
+    left: 51px;
+    background-color: #2a57b8;
+    border-radius: 30px;
+  }
+  
+  .landing-page .text-wrapper-6 {
+    position: absolute;
+    width: 538px;
+    top: 31px;
+    left: 9px;
+    font-family: "Antonio", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .overlap-group-3 {
+    position: absolute;
+    width: 569px;
+    height: 165px;
+    top: 142px;
+    left: 731px;
+    background-color: #2a57b8;
+    border-radius: 30px;
+  }
+  
+  .landing-page .text-wrapper-7 {
+    position: absolute;
+    width: 518px;
+    top: 19px;
+    left: 31px;
+    font-family: "Antonio", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .overlap-7 {
+    position: absolute;
+    width: 569px;
+    height: 165px;
+    top: 359px;
+    left: 731px;
+    background-color: #2a57b8;
+    border-radius: 30px;
+  }
+  
+  .landing-page .text-wrapper-8 {
+    position: absolute;
+    width: 518px;
+    top: 25px;
+    left: 26px;
+    font-family: "Antonio", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .overlap-group-wrapper {
+    position: absolute;
+    width: 1367px;
+    height: 552px;
+    top: 0;
+    left: 0;
+  }
+  
+  .landing-page .group-wrapper {
+    position: relative;
+    width: 1360px;
+    height: 552px;
+    left: 3px;
+    background-image: url(./img/rectangle-5.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group {
+    width: 1247px;
+    left: 57px;
+    position: absolute;
+    height: 451px;
+    top: 54px;
+  }
+  
+  .landing-page .line {
+    position: absolute;
+    width: 4px;
+    height: 181px;
+    top: 1557px;
+    left: 722px;
+  }
+  
+  .landing-page .twitter-logo {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 1642px;
+    left: 1016px;
+  }
+  
+  .landing-page .group-2 {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    top: 1641px;
+    left: 1235px;
+  }
+  
+  .landing-page .img-wrapper {
+    position: absolute;
+    width: 1360px;
+    height: 552px;
+    top: 714px;
+    left: 0;
+    background-image: url(./img/rectangle-6.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group-3 {
+    width: 1242px;
+    left: 64px;
+    position: absolute;
+    height: 451px;
+    top: 54px;
+  }
