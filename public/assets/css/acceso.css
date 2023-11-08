@@ -96,12 +96,12 @@ body{
     grid-auto-flow: column;
     justify-content: center;
     grid-auto-columns: max-content;
-    gap: 1em;
+    gap: 2em;
 }
 
 .main_link{
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: .6em 1.5em;
 }
 
@@ -110,6 +110,6 @@ body{
 }
 
 .main_icon{
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
 }
