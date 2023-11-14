@@ -305,7 +305,7 @@
   width: 1360px;
   height: 588px;
   left: 3px;
-  background-image: url(./img/rectangle-11.svg);
+  background-image: url(../images/rectangle-11.svg);
   background-size: 100% 100%;
 }
 
@@ -449,7 +449,7 @@
   width: 1360px;
   height: 552px;
   left: 3px;
-  background-image: url(./img/rectangle-5.svg);
+  background-image: url(../images/rectangle-5.svg);
   background-size: 100% 100%;
 }
 
@@ -491,7 +491,7 @@
   height: 552px;
   top: 714px;
   left: 0;
-  background-image: url(./img/rectangle-6.svg);
+  background-image: url(../images/rectangle-6.svg);
   background-size: 100% 100%;
 }
 
