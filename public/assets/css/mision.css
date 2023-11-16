@@ -1,5 +1,7 @@
 .mision{
-    background-color:#4286f4 ;
+    background: #7f7fd5; 
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); 
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
     width: 100%;
     margin: auto;
     display: grid;
