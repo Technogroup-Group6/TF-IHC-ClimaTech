@@ -283,6 +283,7 @@
   object-fit: cover;
 }
 
+
 .landing-page .app-store {
   position: absolute;
   width: 572px;
@@ -501,4 +502,259 @@
   position: absolute;
   height: 451px;
   top: 54px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo_img {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.logo_text {
+  position: absolute;
+  width: 256px;
+  top: 9px;
+  left: 82px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  user-select: none;
+}
+nav{
+  background: #497ff3;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif; /* Utiliza 'Open Sans' como primera opción y luego una fuente genérica sans-serif como respaldo */
+}
+
+
+li a:hover{
+  background: orange;
+  transition: 5s;
+}
+
+section.banner {
+  background: linear-gradient(to left, #1a1f2c, #29303d, #161a26);
+  padding: 3rem 0;
+}
+.containerB{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.col1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgBanner {
+  width: 100%;
+  border-radius: 40px; 
+}
+
+.col2{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 2rem;
+  font-family: "Inter";
+  color: #ffffff;
+}
+#txtBanner{
+  margin: 2rem 0;
+  font-family: "Inter";
+  color: #ffffff;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.btnBanner{
+  background: #497ff3;
+  font-family: inter;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+/*SECCIÓN SERVICIOS*/
+.services{
+  font-family: inter;
+  padding:  3rem 0;
+}
+.subServices{
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #4c4c4c;
+}
+.containerS{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+  grid-gap: 2rem;
+}
+.img_containers {
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /* Sombra suave */
+}
+
+
+.boxS{
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
+  background-color:  #739df8;
+  color: #ffffff;
+}
+
+.boxS img{
+  width: 100px;
+}
+h3{
+  color: #ffffff;
+  margin: 10px 0;
+}
+.boxS p{
+  text-align: center;
+}
+
+/*SECCIÓN mision*/
+.mision{
+  background: linear-gradient(to left, #1a1f2c, #29303d, #161a26);
+  padding:  3rem 0;
+}
+.submision{
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #840000;
+}
+.containerP{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+  grid-gap: 2rem;
+}
+.boxM{
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
+}
+.boxM img{
+  width: 100px;
+}
+.boxM h3{
+  color: #4c4c4c;
+  margin: 10px 0;
+}
+.boxM p{
+  text-align: center;
+}
+/*CONTACTO*/
+.contenedor,
+.wave.contenedor{
+  width: 80%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 0 80px 0;
+}
+.contenedor{
+  padding: 80px 0;
+}
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input{
+  background: transparent;
+  border: 0;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  padding: 20px 10px;
+}
+.input::placeholder{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+input[type="text"],
+input[type="email"]{
+  display: inline-block;
+  width: 49%;
+  margin-bottom: 30px;
+}
+.form textarea{
+  width: 100%;
+  margin-bottom: 15px;
+}
+input[type="submit"]{
+  width: 120px;
+  text-align: center;
+  padding: 14px 0;
+}
+
+
+
+/*Pie de Pagina - Footer*/
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+
 }
