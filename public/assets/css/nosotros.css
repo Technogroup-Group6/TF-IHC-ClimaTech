@@ -1,0 +1,63 @@
+/* nosotros.css */
+body {
+    font-family: 'Open Sans', sans-serif; /* Continuamos con la misma familia de fuentes */
+    margin: 0;
+    padding: 0;
+    background-color: #1a1f2c; /* Fondo consistente con la página principal */
+}
+
+.landing-page {
+    color: #ffffff; /* Texto en color blanco para mantener la estética */
+    background: url('ruta/a/tu/imagen-de-fondo.jpg') no-repeat center center; /* Imagen de fondo si es necesaria */
+    background-size: cover; /* Asegura que la imagen de fondo cubra toda la sección */
+    text-align: center; /* Centramos el texto */
+    padding: 100px 20px; /* Ajustamos el espaciado */
+}
+
+.landing-page h1 {
+    font-size: 2.5rem; /* Tamaño de fuente para el título principal */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+    font-weight: bold; /* Negrita para el título */
+}
+
+.landing-page h2 {
+    font-size: 2rem; /* Tamaño de fuente para subtítulos */
+    color: #f2a900; /* Color de acento para mantener la consistencia con el botón de la página principal */
+    margin-top: 0.5rem; /* Espacio encima de los subtítulos */
+    margin-bottom: 1rem; /* Espacio debajo de los subtítulos */
+}
+
+.landing-page p {
+    font-size: 1rem; /* Tamaño de fuente para los párrafos */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+    max-width: 800px; /* Ancho máximo del texto para mantenerlo legible */
+    margin: auto; /* Centramos el bloque de texto */
+    margin-bottom: 1rem; /* Espacio debajo de cada párrafo */
+}
+
+/* Ajustes para botones y enlaces para que sigan la estética de la página principal */
+.btn {
+    background-color: #f2a900; /* Fondo naranja para botones, similar al botón "VER SERVICIOS" */
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 5px; /* Bordes redondeados sutilmente */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e58a00; /* Un tono más oscuro al pasar el cursor */
+}
+
+/* Ajustes para los enlaces de la navegación */
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f2a900; /* Cambio de color al pasar el cursor para mantener la consistencia con los botones */
+}

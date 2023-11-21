@@ -1,73 +1,144 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="public/assets/styles/globals.css" />
-    <link rel="stylesheet" href="public/assets/styles/style.css" />
-  </head>
-  <body>
-    <div class="landing-page">
-      <div class="div">
-        <div class="div-2">
-          <div class="div-2">
-            <div class="overlap-group">
-              <img class="image" src="public/assets/images/image-1.png" />
-              <div class="rectangle"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHC y Tecnologías Moviles</title>
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-climatech">
+                <img class="logo_img" src="public/assets/images/logo-climatech.png">
+                <div class="logo_text">ClimaTech</div>
             </div>
-          </div>
-          <div class="nav-bar">
-            <div class="overlap">
-              <div class="logo">
-                <div class="overlap-group-2">
-                  <div class="climatech-logo-text">ClimaTech</div>
-                  <img class="logo-climatech" src="public/assets/images/logo-climatech.png" />
+            
+            
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" id="services">Servicios</a></li>
+                <li><a href="#" id="mision">Mision</a></li>
+                <li><a href="nosotros.html" id="nosotros">Nosotros</a></li>
+                <li><a href="#" id="contacto">Contacto</a></li>
+                <li><a href="acceso.html">Inicio Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--INICIO-->
+        <section class="banner">
+            <div class="containerB row">
+                <div class="boxB col1-md-5 col-12">
+                    <img src="public/assets/images/banner.png" class="imgBanner" alt="">
                 </div>
-              </div>
-              <div class="text-wrapper">Nosotros</div>
-              <div class="text-wrapper-2">Noticias</div>
-              <div class="text-wrapper-3">Mapa</div>
-              <div class="iniciar-seccion">Iniciar Sesión</div>
+                <div class="boxB col2">
+                    <h1>ClimaTech - App de alertas SÍSMICAS y CLIMATOGRÁFICAS</h1>
+                    <p id="txtBanner"> En el pulso de la prevención, nuestra app te brinda seguridad ante la incertidumbre. Mantente a salvo con alertas sísmicas y climatológicas, anticipándote a la incertidumbre de la naturaleza.
+                        
+                    </p>
+                    <div>
+                        <a href="#" class="btnBanner">VER SERVICIOS</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <img class="front-main-page" src="public/assets/images/front-main-page-1.png" />
-          <img class="vectores" src="public/assets/images/vectores.png" />
+        </section>
+
+        <!--SERVICIOS-->
+        <section class="services">
+            <div class="subServices">
+                <h2>Nuestros Servicios</h2>
+                <p>
+                    Como ClimaTech, nosotros pensamos <br>
+                    en la seguridad de nuestros clientes, por ende les traemos los servicios que ofrecemos a nuestros usuarios, utilizando información <b>100% confiable</b>.
+                </p>
+            </div>
+            <div class="containerS">
+                <img class="img_containers" src="public/Mock Ups/INICIO.png"" alt="">
+                <div class="boxS">
+                    <img src="public/assets/images/news.png" alt="">
+                    <h3>Noticias</h3>
+                    <p>
+                        Recibe las ultimas noticias sísmiscas y climatográficas desde tu celular por fuentes confiables.
+                    </p>
+                </div>
+
+                <div class="boxS">
+                    <img src="public/assets/images/mapa.png" alt="">
+                    <h3>Mapa</h3>
+                    <p>
+                        Vé los últimos eventos climatográficos en vivo cercanos a tu zona.
+                    </p>
+                </div>
+
+                <div class="boxS">
+                    <img src="public/assets/images/alerta.png" alt="">
+                    <h3>Emergencias</h3>
+                    <p>
+                        Conoce los números de emergencias más cercanos a tu zona, sientete protegido en todo momento.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--mision-->
+
+        <section class="mision">
+            <div class="boxM">
+                <h1>Mision</h1>
+                <p>
+                    Informar a la población sobre los eventos climatográficos 
+                    y sismográficos para fomentar la prevención contra desastres.
+                </p>
+            </div>
+            <div class="boxM">
+                <h1>Vision</h1>
+                <p>
+                    Brindar una aplicacion útil y
+                    de facil uso que brinden las principales herramientas 
+                    ante prevension al usuario.
+                </p>
+            </div>
+            <div class="boxM">
+                <h1>Lema</h1>
+                    <p>
+                        Brindar una aplicacion útil y de facil uso que
+                         brinden las principales herramientas ante prevensión al usuario.
+    
+                    </p>
+    
+            </div>
+    
+        </section>
+    </main>
+    <!--CONTACTO-->
+    <section class="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Contacto</h2>
+            <form action="" class="form">
+                <input type="text" class="input" name="" id="" placeholder="Ingrese Nombre">
+                <input type="email" class="input" name="" id="" placeholder="Ingrese Email">
+                <textarea name="" id="" cols="30" rows="10" class="input" placeholder="Ingrese Mensaje"></textarea>
+                <input type="submit" class="input" value="Enviar">
+            </form>
         </div>
-        <div class="overlap-2">
-          <footer class="footer">
-            <div class="overlap-3">
-              <div class="nosotros">SIGANOS EN NUESTRAS REDES</div>
-              <a href="index.html"><img class="CLIMATECH" src="public/assets/images/CLIMATECH.png" />
-               <a href="#"><div class="nosotros-2">Privacidad</div></a>
-              <a href="#"><div class="nosotros-3">Terminos y Condiciones</div>
-              <a href="https://www.facebook.com"><img class="facebook-logo" src="public/assets/images/facebook-logo.svg" alt="Picture of Facebook" /></a>
-            </div>
-          </footer>
-          <div class="section">
-            <div class="overlap-4">
-              <div class="text-wrapper-4">DISPONIBLE EN</div>
-              <img class="img" src="public/assets/images/image-2.png" />
-              <img class="app-store" src="public/assets/images/app-store-1-1.png" />
-            </div>
-          </div>
-          <div class="overlap-wrapper">
-            <div class="overlap-5">
-              <div class="text-wrapper-5">TESTIMONIOS</div>
-              <div class="div-wrapper"><p class="p">La mejor aplicación para estar enterados ante todo.</p></div>
-              <div class="overlap-6"><div class="text-wrapper-6">Me parece interesante propuesta</div></div>
-              <div class="overlap-group-3">
-                <p class="text-wrapper-7">Me ha servido mucho en la planificación de eventos</p>
-              </div>
-              <div class="overlap-7"><p class="text-wrapper-8">Facil de usar y de mucha ayuda</p></div>
-            </div>
-          </div>
-          <div class="overlap-group-wrapper">
-            <div class="group-wrapper"><img class="group" src="public/assets/images/group-5.png" /></div>
-          </div>
-          <img class="line" src="public/assets/images/line-1.svg" />
-          <a href="https://www.x.com"><img class="twitter-logo" src="public/assets/images/twitter-logo.svg" />
-          <a href="https://www.instagram.com"><img class="group-2" src="public/assets/images/group.png" />
+    </section>
+    <footer>
+        <div class="footer-container">
+            <small>
+                Copyright &copy; 2023 
+                <br>
+                ClimaTech - TechnoGroup
+                <div class="terms"><a class="btterms"href="Privacidad.html">Terminos y privacidad</a></div>
+            </small>
+
         </div>
-        <div class="img-wrapper"><img class="group-3" src="public/assets/images/group-1.png" /></div>
-      </div>
-    </div>
-  </body>
+    </footer>
+
+    <script src="public/assets/scripts/menu.js"></script>
+    
+</body>
 </html>
