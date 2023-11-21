@@ -791,3 +791,10 @@ footer{
   text-align: center;
 }
 
+.btterms{
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  outline: none; /* Elimina el borde al hacer clic */
+  cursor: pointer;
+  display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+  color: #ffffff;
+}
